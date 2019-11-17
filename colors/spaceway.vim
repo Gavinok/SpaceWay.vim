@@ -88,7 +88,7 @@ hi StatusLine     ctermbg=145  ctermfg=235  guibg=#303537 guifg=#B3B8C4 cterm=NO
 hi StatusLineTerm ctermbg=145  ctermfg=235  guibg=#303537 guifg=#B3B8C4 cterm=NONE           gui=NONE
 hi Underlined     ctermbg=NONE ctermfg=66   guibg=NONE    guifg=#5F8787 cterm=NONE           gui=NONE
 hi ignore         ctermbg=NONE ctermfg=103  guibg=NONE    guifg=#BCBCBC cterm=NONE           gui=NONE
-hi Visual         ctermbg=8    ctermfg=NONE guibg=#404040 guifg=NONE    cterm=NONE           gui=NONE
+hi Visual         ctermbg=235  ctermfg=NONE guibg=#404040 guifg=NONE    cterm=NONE           gui=NONE
 hi VisualNOS      ctermbg=8    ctermfg=NONE guibg=NONE    guifg=NONE    cterm=bold           gui=bold
 hi FoldColumn     ctermbg=NONE ctermfg=242  guibg=#1C1C1C guifg=#6C6C6C cterm=NONE           gui=NONE
 hi Folded         ctermbg=NONE ctermfg=242  guibg=#1C1C1C guifg=#6C6C6C cterm=NONE           gui=NONE
