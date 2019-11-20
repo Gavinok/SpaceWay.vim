@@ -140,13 +140,11 @@ hi link htmlLink            Function
 hi link htmlSpecialTagName  htmlTagName
 hi link htmlTag             htmlTagName
 
-" Rails
-" hi link rubyRailsARAssociationMethod  Statement
-" hi link rubyRailsARValidationMethod   Statement
-" hi link rubyRailsARMethod             Statement
-" hi link rubyRailsARCallbackMethod     Statement
-" hi link rubyRailsARClassMethod        Statement
-
 " Diff
 hi link diffAdded           String
 hi link diffRemoved         Function
+if &diff
+	highlight! link DiffText MatchParen
+	highlight! clear DiffChange
+	highlight! link DiffChange NONE
+endif
