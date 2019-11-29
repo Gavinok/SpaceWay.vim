@@ -65,7 +65,8 @@ hi CursorLine     ctermbg=NONE ctermfg=249  guibg=NONE    guifg=#808080 cterm=NO
 hi ColorColumn    ctermbg=235  ctermfg=NONE guibg=#303537 guifg=NONE    cterm=NONE           gui=NONE
 hi SignColumn     ctermbg=233  ctermfg=250  guibg=#141617 guifg=#B3B8C4 cterm=NONE           gui=NONE
 hi Todo           ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=reverse        gui=reverse
-hi Error          ctermbg=52   ctermfg=12   guibg=NONE    guifg=#AF5F5F cterm=underline      gui=reverse
+hi Error ctermbg=NONE ctermfg=131 cterm=reverse guibg=NONE guifg=#af5f5f gui=reverse
+hi ErrorMsg ctermbg=131 ctermfg=235 cterm=NONE guibg=#af5f5f guifg=#262626 gui=NONE
 hi Question       ctermbg=NONE ctermfg=214  guibg=NONE    guifg=#FFAF00 cterm=NONE           gui=NONE
 hi ModeMsg        ctermbg=NONE ctermfg=249  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
 hi MoreMsg        ctermbg=NONE ctermfg=249  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
