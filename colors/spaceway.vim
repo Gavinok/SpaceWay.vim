@@ -35,13 +35,12 @@ let colors_name = 'spaceway'
 
 " Colorscheme definitions {{{1
 hi Normal        ctermbg=NONE ctermfg=250    guibg=#111314  guifg=#B3B8C4
-hi link Terminal Normal
 if has('nvim')
 	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=italic gui=italic
-	hi StatusLineNC     ctermbg=239  ctermfg=235 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
 else
 	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=NONE gui=NONE
-	hi StatusLineNC     ctermbg=239  ctermfg=235 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
+	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
 endif
 
 hi  NonText        ctermbg=NONE    ctermfg=8      guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
@@ -79,7 +78,7 @@ hi  PmenuSel       ctermbg=110     ctermfg=235    guibg=#8FAFD7    guifg=#141617
 hi  PmenuSbar      ctermbg=235     ctermfg=249    guibg=#303537    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  PmenuThumb     ctermbg=235     ctermfg=137    guibg=NONE       guifg=#171717  cterm=none            gui=none
 hi  WildMenu       ctermbg=110     ctermfg=235    guibg=#8FAFD7    guifg=#141617  cterm=bold            gui=bold
-hi  StatusLine     ctermbg=237     ctermfg=232    guibg=#303537    guifg=#B3B8C4  cterm=NONE            gui=NONE
+hi  StatusLine     ctermbg=239     ctermfg=232    guibg=#303537    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  Underlined     ctermbg=NONE    ctermfg=66     guibg=NONE       guifg=#5F8787  cterm=NONE            gui=NONE
 hi  ignore         ctermbg=NONE    ctermfg=103    guibg=NONE       guifg=#BCBCBC  cterm=NONE            gui=NONE
 hi  Visual         ctermbg=235     ctermfg=110    cterm=reverse    guibg=#262626  guifg=#8fafd7         gui=reverse
@@ -104,6 +103,8 @@ hi link StatusLineTermNC StatusLineNC
 hi link StatusLineTerm StatusLine
 hi link Conceal Normal
 hi link Title Normal
+hi link Terminal Normal
+
 " Highlights {{{1
 hi link Boolean             Constant
 hi link Character           Constant
