@@ -43,6 +43,7 @@ else
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
 endif
 
+hi  Title  		   ctermbg=NONE    ctermfg=256    guibg=NONE       guifg=#3E4853  cterm=bold            gui=bold
 hi  NonText        ctermbg=NONE    ctermfg=8      guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
 hi  Constant       ctermbg=NONE    ctermfg=130    guibg=NONE       guifg=#C5735E  cterm=NONE            gui=NONE
 hi  Function       ctermbg=NONE    ctermfg=9      guibg=NONE       guifg=#CC6666  cterm=NONE            gui=NONE
@@ -102,7 +103,6 @@ hi  SpellLocal     ctermbg=24      ctermfg=14     guibg=#005F5F    guifg=#8ABEB7
 hi link StatusLineTermNC StatusLineNC
 hi link StatusLineTerm StatusLine
 hi link Conceal Normal
-hi link Title Normal
 hi link Terminal Normal
 
 " Highlights {{{1
