@@ -89,7 +89,7 @@ hi  Folded         ctermbg=NONE    ctermfg=242    guibg=#1C1C1C    guifg=#6C6C6C
 hi  VertSplit      ctermbg=232     ctermfg=145    guibg=#1C1F20    guifg=#1C1F20  cterm=NONE            gui=NONE
 hi  IncSearch      ctermbg=9       ctermfg=0      guibg=#AF5F5F    guifg=#141617  cterm=NONE            gui=NONE
 hi  Search         ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=underline,bold  gui=underline,bold
-hi  QuickFixLine   ctermbg=yellow  ctermfg=black  cterm=NONE                                            
+hi  QuickFixLine   ctermbg=11  	   ctermfg=0   	  cterm=NONE                                            
 hi  TabLine        ctermbg=232     ctermfg=249    guibg=#141617    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  TabLineFill    ctermbg=235     ctermfg=239    guibg=#303537    guifg=#303537  cterm=NONE            gui=NONE
 hi  TabLineSel     ctermbg=145     ctermfg=0      guibg=#7D8FA3    guifg=#111314  cterm=NONE            gui=NONE
