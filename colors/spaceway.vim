@@ -93,7 +93,7 @@ hi  QuickFixLine   ctermbg=yellow  ctermfg=black  cterm=NONE
 hi  TabLine        ctermbg=232     ctermfg=249    guibg=#141617    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  TabLineFill    ctermbg=235     ctermfg=239    guibg=#303537    guifg=#303537  cterm=NONE            gui=NONE
 hi  TabLineSel     ctermbg=145     ctermfg=0      guibg=#7D8FA3    guifg=#111314  cterm=NONE            gui=NONE
-hi  Directory      ctermbg=NONE    ctermfg=24     guibg=NONE       guifg=#5FAFAF  cterm=NONE            gui=NONE
+hi  Directory      ctermbg=NONE    ctermfg=115    guibg=NONE       guifg=#5FAFAF  cterm=NONE            gui=NONE
 hi  MatchParen     ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#E5C078  cterm=bold            gui=bold
 hi  SpellBad       ctermbg=52      ctermfg=9      guibg=#5F0000    guifg=#CC6666  cterm=NONE            gui=NONE
 hi  SpellRare      ctermbg=53      ctermfg=13     guibg=#5F005F    guifg=#B294BB  cterm=NONE            gui=NONE
