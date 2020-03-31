@@ -11,24 +11,7 @@ hi clear
 if exists('syntax_on')
 	syntax reset
 endif
-let g:terminal_ansi_colors = [
-			\ '#3A3E42',
-			\ '#BF6262',
-			\ '#A2A565',
-			\ '#E9A96F',
-			\ '#789BAD',
-			\ '#9F7AA5',
-			\ '#638E8A',
-			\ '#737673',
-			\ '#5D6369',
-			\ '#BF6262',
-			\ '#A5A76E',
-			\ '#E9A96F',
-			\ '#789BAD',
-			\ '#9F7AA5',
-			\ '#9F7AA5',
-			\ '#b7bec9'
-			\ ]
+
 
 set background=dark
 let colors_name = 'spaceway'
@@ -145,6 +128,25 @@ hi link htmlTag             htmlTagName
 " Diff
 hi link diffAdded           String
 hi link diffRemoved         Function
+
+let g:terminal_ansi_colors = [
+			\ '#3A3E42',
+			\ '#BF6262',
+			\ '#A2A565',
+			\ '#E9A96F',
+			\ '#789BAD',
+			\ '#9F7AA5',
+			\ '#638E8A',
+			\ '#737673',
+			\ '#5D6369',
+			\ '#BF6262',
+			\ '#A5A76E',
+			\ '#E9A96F',
+			\ '#789BAD',
+			\ '#9F7AA5',
+			\ '#9F7AA5',
+			\ '#b7bec9'
+			\ ]
 
 if &diff
 	highlight! link DiffText MatchParen
