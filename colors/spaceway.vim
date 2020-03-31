@@ -26,25 +26,25 @@ else
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
 endif
 
-hi  Title  		   ctermbg=NONE    ctermfg=256    guibg=NONE       guifg=#3E4853  cterm=bold            gui=bold
-hi  NonText        ctermbg=NONE    ctermfg=8      guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
-hi  Constant       ctermbg=NONE    ctermfg=130    guibg=NONE       guifg=#C5735E  cterm=NONE            gui=NONE
+hi  Title  		   ctermbg=NONE    ctermfg=60     guibg=NONE       guifg=#3E4855  cterm=bold            gui=bold
+hi  NonText        ctermbg=NONE    ctermfg=243    guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
+hi  Constant       ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#af5f00  cterm=NONE            gui=NONE
 hi  Function       ctermbg=NONE    ctermfg=9      guibg=NONE       guifg=#CC6666  cterm=NONE            gui=NONE
 hi  Identifier     ctermbg=NONE    ctermfg=179    guibg=NONE       guifg=#E5C078  cterm=NONE            gui=NONE
 hi  PreProc        ctermbg=NONE    ctermfg=109    guibg=NONE       guifg=#85A7A5  cterm=NONE            gui=NONE
 hi  Statement      ctermbg=NONE    ctermfg=103    guibg=NONE       guifg=#7D8FA3  cterm=NONE            gui=NONE
 hi  SpecialKey     ctermbg=NONE    ctermfg=59     guibg=NONE       guifg=#4C5966  cterm=NONE            gui=NONE
-hi  Special        ctermbg=NONE    ctermfg=66     guibg=NONE       guifg=#A57A9E  cterm=NONE            gui=NONE
+hi  Special        ctermbg=NONE    ctermfg=66     guibg=NONE       guifg=#5f8787  cterm=NONE            gui=NONE
 hi  String         ctermbg=NONE    ctermfg=107    guibg=NONE       guifg=#95B47B  cterm=NONE            gui=NONE
 hi  Type           ctermbg=NONE    ctermfg=179    guibg=NONE       guifg=#E5C078  cterm=NONE            gui=NONE
 hi  Cursor         ctermbg=NONE    ctermfg=NONE   guibg=#6C6C6C    guifg=NONE     cterm=NONE            gui=NONE
-hi  CursorColumn   ctermbg=0       ctermfg=NONE   guibg=#303030    guifg=NONE     cterm=NONE            gui=NONE
+hi  CursorColumn   ctermbg=NONE    ctermfg=NONE   guibg=#303030    guifg=NONE     cterm=NONE            gui=NONE
 hi  CursorLine     ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
 hi  ColorColumn    ctermbg=235     ctermfg=NONE   guibg=#303537    guifg=NONE     cterm=NONE            gui=NONE
 hi  SignColumn     ctermbg=233     ctermfg=250    guibg=#141617    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  Todo           ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=reverse         gui=reverse
-hi  Error          ctermbg=NONE    ctermfg=131    cterm=reverse    guibg=NONE     guifg=#af5f5f         gui=reverse
-hi  ErrorMsg       ctermbg=131     ctermfg=235    cterm=NONE       guibg=#af5f5f  guifg=#262626         gui=NONE
+hi  Error          ctermbg=NONE    ctermfg=131    guibg=NONE       guifg=#af5f5f  cterm=reverse         gui=reverse
+hi  ErrorMsg       ctermbg=131     ctermfg=235    guibg=#af5f5f    guifg=#262626  cterm=NONE            gui=NONE
 hi  Question       ctermbg=NONE    ctermfg=214    guibg=NONE       guifg=#FFAF00  cterm=NONE            gui=NONE
 hi  ModeMsg        ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
 hi  MoreMsg        ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
