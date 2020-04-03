@@ -17,7 +17,7 @@ set background=dark
 let colors_name = 'spaceway'
 
 " Colorscheme definitions {{{1
-hi Normal        ctermbg=NONE ctermfg=250    guibg=#111314  guifg=#B3B8C4
+hi Normal          ctermbg=NONE ctermfg=250     guibg=#262626  guifg=#BCBCBC cterm=NONE gui=NONE
 if has('nvim')
 	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=italic gui=italic
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
@@ -26,7 +26,7 @@ else
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
 endif
 
-hi  Title  		   ctermbg=NONE    ctermfg=60     guibg=NONE       guifg=#3E4855  cterm=bold            gui=bold
+hi  Title          ctermbg=NONE    ctermfg=231    guibg=NONE       guifg=#cccccc  cterm=NONE            gui=NONE
 hi  NonText        ctermbg=NONE    ctermfg=243    guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
 hi  Constant       ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#af5f00  cterm=NONE            gui=NONE
 hi  Function       ctermbg=NONE    ctermfg=9      guibg=NONE       guifg=#CC6666  cterm=NONE            gui=NONE
@@ -42,7 +42,8 @@ hi  CursorColumn   ctermbg=NONE    ctermfg=NONE   guibg=#303030    guifg=NONE   
 hi  CursorLine     ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
 hi  ColorColumn    ctermbg=235     ctermfg=NONE   guibg=#303537    guifg=NONE     cterm=NONE            gui=NONE
 hi  SignColumn     ctermbg=233     ctermfg=250    guibg=#141617    guifg=#B3B8C4  cterm=NONE            gui=NONE
-hi  Todo           ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=reverse         gui=reverse
+hi  Todo           ctermbg=NONE    ctermfg=167    guibg=NONE       guifg=#d75f5f  cterm=bold            gui=bold
+
 hi  Error          ctermbg=NONE    ctermfg=131    guibg=NONE       guifg=#af5f5f  cterm=reverse         gui=reverse
 hi  ErrorMsg       ctermbg=131     ctermfg=235    guibg=#af5f5f    guifg=#262626  cterm=NONE            gui=NONE
 hi  Question       ctermbg=NONE    ctermfg=214    guibg=NONE       guifg=#FFAF00  cterm=NONE            gui=NONE
