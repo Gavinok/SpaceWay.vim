@@ -26,7 +26,7 @@ else
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
 endif
 
-hi  Title          ctermbg=NONE    ctermfg=231    guibg=NONE       guifg=#cccccc  cterm=NONE            gui=NONE
+hi  Title          ctermbg=NONE    ctermfg=231    guibg=NONE       guifg=#eeeeee  cterm=NONE            gui=NONE
 hi  NonText        ctermbg=NONE    ctermfg=243    guibg=NONE       guifg=#3E4853  cterm=NONE            gui=NONE
 hi  Constant       ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#af5f00  cterm=NONE            gui=NONE
 hi  Function       ctermbg=NONE    ctermfg=9      guibg=NONE       guifg=#CC6666  cterm=NONE            gui=NONE
